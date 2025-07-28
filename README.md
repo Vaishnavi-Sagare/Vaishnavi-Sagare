@@ -8,6 +8,6 @@ Hello Everyone, I'm Vaishnavi!
 
 🌱 Actively learning, building skills, and exploring project opportunities 
 
-🚀 Aspiring to become part of top tech companies 
+🚀 Aspiring to become a part of top tech companies 
 
 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/vaishnavi-sagare-02a6562a9/)
