@@ -1,0 +1,17 @@
+class Solution(object):
+    def countMaxOrSubsets(self, nums):
+        res = [0]  # use list to mutate inside nested function
+        maxOr = 0
+        for i in nums:
+            maxOr |= i
+
+        def dfs(i, currOr):
+            if i == len(nums):
+                if currOr == maxOr:
+                    res[0] += 1
+                return
+            dfs(i + 1, currOr)
+            dfs(i + 1, currOr | nums[i])
+
+        dfs(0, 0)
+        return res[0]
